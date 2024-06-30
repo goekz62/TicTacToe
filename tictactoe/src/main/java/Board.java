@@ -74,7 +74,7 @@ public class Board {
             }
             System.out.println();
             if (i < 2) {
-                System.out.println("-----");
+                System.out.println("------");
             }
         }
     }
