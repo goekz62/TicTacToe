@@ -11,11 +11,11 @@ Inhalt
 - [CI/CD](#cicd)
 - [Projektstruktur](#projektstruktur)
 
-Über das Projekt
+## Über das Projekt
 
 Dieses Projekt implementiert ein TicTacToe-Spiel, das über die Konsole gespielt werden kann. Es unterstützt zwei Spieler, die abwechselnd ihre Züge machen, bis entweder einer der Spieler gewinnt oder das Spiel unentschieden endet.
 
-Installation
+## Installation
 
 1. Voraussetzungen:
 - Java Development Kit (JDK) 11 oder höher
@@ -26,7 +26,7 @@ Klone das Repository:
 git clone https://github.com/goekz62/TicTacToe.git
 cd TicTacToe
 
-Verwendung
+## Verwendung
 
 1. Starten des Spiels:
 - Nach der Installation kannst du das Spiel über die Kommandozeile starten:
@@ -36,7 +36,7 @@ java -cp target/tictactoe-1.0-SNAPSHOT.jar org.example.tictactoe.TicTacToe
 2. Spielanleitung:
 - Das Spiel wird im Terminal gespielt. Spieler geben ihre Züge ein, indem sie die Reihe und die Spalte für ihren Zug angeben (z.B., "1 1" für die Mitte).
 
-Features
+## Features
 
 - Spielzug machen: Spieler können abwechselnd ihre Züge machen.
 - Spielbrett anzeigen: Das Spielbrett wird nach jedem Zug aktualisiert angezeigt.
@@ -44,10 +44,10 @@ Features
 - Neues Spiel starten: Nach dem Ende eines Spiels kann ein neues Spiel gestartet werden, ohne die Anwendung neu zu starten.
 - Spielerwechsel: Nach jedem Zug wechselt das Spiel automatisch den Spieler.
 
-Workflow-Datei:
+## Workflow-Datei:
 Die CI/CD-Konfiguration befindet sich in .github/workflows/ci.yml. Diese Datei konfiguriert den Workflow, um das Projekt zu bauen und die Tests bei jedem Push oder Pull-Request auszuführen.
 
-Projektstruktur
+## Projektstruktur
 src/main/java: Enthält den Quellcode des Projekts.
 src/test/java: Enthält die Unit-Tests für das Projekt.
 .github/workflows: Enthält die GitHub Actions Workflow-Datei für CI/CD.
